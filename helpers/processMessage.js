@@ -1,6 +1,6 @@
 const API_AI_TOKEN = '<your dialogflow api here>';
 const apiAiClient = require('apiai')(API_AI_TOKEN);
-const FACEBOOK_ACCESS_TOKEN = 'Facebook page token here';
+const FACEBOOK_ACCESS_TOKEN = '<Facebook page token here>';
 const request = require('request');
 const sendTextMessage = (senderId, text) => {
  request({
